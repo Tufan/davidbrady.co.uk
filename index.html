@@ -1,1 +1,36 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .rotate {
+            animation: rotation 10s infinite linear;
+        }
+
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
+    <title>David Brady</title>
+</head>
+
+<body>
+
+    <img src="david_brady.png" alt="David Brady" class="rotate">
+
+</body>
+
+</html>
